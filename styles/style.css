@@ -1,0 +1,249 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+body{
+ font-family: 'Work Sans', sans-serif;
+  color:#131313;
+}
+/* universal style */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* header styles */
+.header{
+  background-color: #FF900E1A;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 140px;
+}
+.nav-title {
+  font-style: 700;
+  font-size: 25px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #424242;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+.header-banner{
+ text-align: center;
+ width: 40%;
+ margin:auto;
+}
+
+.banner-title{
+  font-style: Bold;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.banner-description{
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+.btn-primary{
+  background-color: #FF900E;
+  color: #ffffff;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.banner-image img{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 45px;
+}
+/* main styles */
+.container{
+  margin: 4rem;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.thumbnail img{
+  width: 340px;
+}
+.img-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.article-box{
+  width: 70%;
+  margin: auto;
+}
+.article-box p{
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.article-box h2 {
+  font-size: 45px;
+}
+/* service section styles */
+.service-section{
+  position: relative;
+  display: grid;
+  margin: 8px;
+  padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content-title{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.content-title h2{
+  padding: 10px;
+  border-left: 4px solid #FF900E;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.sub-content{
+  padding: 8px;
+  margin: 10px;
+  box-shadow: 4px 4px 4px 4px #efefef;
+}
+.sub-content p{
+  color: #727272;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.service-img img{
+  height: 100vh;
+  width: 100%;
+
+}
+.exprience{
+  width: 120px;
+  padding: 20px;
+  background-color: #FF900E;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  color: #ffffff;
+  border-radius: 5px;
+}
+/* fact section style */
+.fact-container {
+  padding: 10px;
+  margin: 32px;
+}
+.fact-title {
+  margin: 16px;
+  padding: 10px;
+  width: 40%;
+  margin-bottom: 50px;
+}
+.fact-title h2{
+  font-size: 45px;
+}
+.fact-title p{
+  font-size: 16px;
+}
+.fact-box{
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  align-items: center;
+}
+.fact-item:hover{
+  background-color: #efefef;
+  box-shadow: 8px 6px 10px 2px gray;
+  transition: .5s;
+  translate: 30px;
+
+}
+.fact-item{
+  border: 1px solid #FF900E;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  margin: auto;
+}
+.fact-item h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fact-item p{
+  font-size: 20px;
+  font-weight: 600px;
+  color: #727272
+}
+/* sponsor section style */
+.client-container{
+  margin: 100px 18px;
+  padding: 12px;
+}
+.client-title{
+  width: 540px;
+  margin: auto;
+  text-align: center;
+}
+.client-title h2 {
+  margin: 12px;
+  font-weight: bold;
+  font-size: 45px;
+}
+.client-img-box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+/* teammate about style */
+.teammate-container{
+  padding: 10px 16px;
+  margin: 16px;
+}
+.teammate-container h2{
+  text-align: center;
+  color: #FF900E;
+  margin: 22px;
+}
+.teammate-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+.teammate-box div{
+  box-shadow: 4px 6px 6px #807b7b;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.teammate-box img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.teammate-box h4,p{
+  margin: 6px;
+}
+/* footer style */
+footer{
+  padding: 32px;
+  text-align: center;
+  background-color: #fff4e7;
+  margin-bottom: 30px;
+}
